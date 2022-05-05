@@ -1,0 +1,76 @@
+Info Fachbegriffe:
+
+Q1:
+überladen - Mehoden mit dem gleichen Namen, aber unterschiedlichen Parametern
+rekursiv - 
+iterativ -
+backtracking -
+lineare suche -
+binäre suche -
+Terminationsbedingung -
+Vererbung - 
+Objekt - 
+Klasse - 
+Attribute - 
+Methode - 
+Konstruktor - 
+Geheimnisprinzip - 
+Sichbarkeit - 
+get-/set-Methoden - 
+UML-Klassendiagramm - 
+Assoziation - 
+Aggregation - 
+
+Q2:
+Entety Relation ship model - 
+Relationen model - Schema der Tabellen
+Entität - eindeutiges InformationsObjekt wird in DB gespeichert
+Entitätstyp - Objektklasse (Gleichartige Entitäten bilden einen Entitätstyp)
+Attribut - Eigenschaft eines Entiättyps
+Beziehung - verbindungen zwischen Entitätstypen (Eine Beziehung kennzeichnet den konkreten Zusammenhang zwischen zwei Entitäten)
+Kardinalität - wie viele Entitäten eines Entitätstyps an einer konkreten Beziehung beteiligt sein können oder müssen
+Optionalität - ob es optional oder obligatorisch geben muss oder nicht
+Primärschlüssel - eindeutiger Schüssel für
+Fremdschüssel - verweis auf Primärschlüssel einer fremden Tabelle
+Normalisierung - 
+Anomalien - füren zu redundanzen und zu Daten
+erste Normalform - Alle Attibute sind atomar
+zweite normalform - voll funkional Abhängig von Promärschlüsseln (bei)
+dritte Normalform - keine transitive Normalform (wenn ein Attribut mehr als eine Abhängigkeit besitzt)
+Projektion - weleche Spalten
+Selektion - welche Zeilen
+Aggregatfunktion - verarbeiten Information
+Join - Verbinden zweier Tabekken, anhand von eigentschaften
+Sortierung - 
+Gruppierung - nach Attribut in Gruppen einteilen
+Unterabfragen - Abfrage in eier Abfrage
+DML - bearbeiten
+DDL - definition
+DCL - berechtigungen
+
+
+Q3:
+polynomer - O(n^k) lsumk=0 (a*x^k)
+expodential - k^n
+bijektiv - injektiv und surejektiv
+surejektiv - jedes y min ein x
+injektiv - jeders y höchstens ein x
+diogonalisierung
+Halteproblem - gibt es einen Algoritmus, der entscheidet ob ein algoritmus terminiert oder nicht
+abzählbar
+überabzählbar - 
+entscheidbar - terminiert immer
+semientscheidbar - terminiert manchmal
+unentscheidbar - terminiert nie
+algorithmus - 
+terminiert - 
+Grammatiken (chomsky hirachie):
+reguläre - rechts oder linksbündig
+kontextfrei - es können Terminale sowohl vor als auch hinter einem nicht Terminal geschrieben werden
+kontext sensitiv -  
+ableitung - überprüfen ob wort zu einer sprache gehört
+ableitungsbaum
+Syntrax - 
+semantik - 
+befehlszähler - 
+akkumulator - 

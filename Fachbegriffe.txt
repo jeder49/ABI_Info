@@ -1,0 +1,26 @@
+Fachbegriffe:
+
+Q1:
+rekursiv - 
+iterativ
+backtracking
+lineare suche
+binäre suche
+Terminationsbedingung
+Vererbung
+Objekt
+Klasse
+Attribute
+Methode
+Konstruktor
+Geheimnisprinzip
+Sichbarkeit
+get-/set-Methoden
+UML-Klassendiagramm
+Assoziation
+Aggregation
+
+Q2:
+
+
+Q3:

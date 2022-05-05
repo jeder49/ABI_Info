@@ -21,4 +21,12 @@ public class Node {
     public Node getNext(){
         return next;
     }
+
+    public void setEntry(Entry e){
+        entry = e;
+    }
+
+    public Entry getEntry(){
+        return entry;
+    }
 }

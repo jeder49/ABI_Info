@@ -1,6 +1,7 @@
 public class List {
     Node  root0; // root of list with one conection
     Node1 root1; // root of list with double conection
+
     public List(){
         root0 = null;
         root1 = null;
@@ -50,6 +51,19 @@ public class List {
         return null;
     }
 
+    public int getIndexOfNode(Node n){
+        int i = 0;
+        if (root0 == null){
+            System.out.println("[getNodeByIndex]: There is no List0");
+            return 0;
+        }
+        Node cursor = root0;
+        while (cursor != n){
+            i++;
+            cursor = cursor.getNext();
+        }
+        return i;
+    }
     public Node binSearchList0(String s){
         Node n = null;
         Node cursor = root0;
@@ -74,11 +88,25 @@ public class List {
 
     public void bubbleSortList0(){
         boolean change = true;
+        if(root0 == null){
+            System.out.println("[bubbleSortList0]: There is no List0");
+            return;
+        }
+        Node cursor;
         while(change){
             change = false;
-            Node cursor = root0;
+            cursor = root0;
             while (cursor.hasNext()){
+                //look up how to compare strings
+                //if (cursor.getEntry() > cursor.getNext().getEntry()){
+                    Node tmp = cursor;
+                    int i = getIndexOfNode(cursor);
+                    if(i == 0){
 
+                    } else if (i == -1) {
+                        
+                    }
+                //}
                 cursor = cursor.getNext();
             }
         }
