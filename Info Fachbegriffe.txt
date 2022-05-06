@@ -1,76 +1,88 @@
 Info Fachbegriffe:
 
 Q1:
-überladen - Mehoden mit dem gleichen Namen, aber unterschiedlichen Parametern
-rekursiv - 
-iterativ -
-backtracking -
-lineare suche -
-binäre suche -
-Terminationsbedingung -
-Vererbung - 
-Objekt - 
-Klasse - 
-Attribute - 
-Methode - 
-Konstruktor - 
-Geheimnisprinzip - 
-Sichbarkeit - 
-get-/set-Methoden - 
-UML-Klassendiagramm - 
-Assoziation - 
-Aggregation - 
+inizialsiert				- Wert festlegen
+deklariert					- 
+bäume:
+Grad						- wie viele Kinder ein Knoten effektiv hat
+Pfad						- gibt an, welche Kanten und Knoten besucht werden, wenn man von Knoten v nach Knoten w wandert
+Tiefe						- gibt an, wie lang der Pfad zur Wurzel ist
+Höhe 						- entspricht der Tiefe des Knotens, welcher am weitesten von der Wurzel entfernt ist
+ausgefüllt					- alle inneren Knoten die maximale Anzahl Kinder haben
+vollständig					- jedes Niveau hat die maximale Anzahl an Knoten
+überladen 					- Mehoden mit dem gleichen Namen, aber unterschiedlichen Parametern
+rekursiv 					- sich selbstaufrufend
+iterativ 					- nichte rekursiv
+backtracking 				- ein verfahren um mögliche lösungen für ein poblem zu finden, indem man verschiedene Wege ausprobiert und zu rück geht, wenn man merkt das der Weg nicht funktioniert
+lineare suche 				- jedes element nacheinander durchgehan und abgleichen
+binäre suche 				- (funktioniert nur bei einer sortierten liste)
+Terminationsbedingung 		- 
+Geheimnisprinzip 			- 
+Sichbarkeit 				- 
+Abstrakt					- Abstrakt bedeutet, dass eine Klasse keine Objekte besitzen kann(Eine Klasse ist abstrakt, sobald eine Methode von ihr abstakt ist )
+static						- ein Attribut/Methode mit dieser zeichnung ist für alle objekte der Klasse gleich.
+UML-Klassendiagramm 		- übersich über alle Klassen, deren Attribute, Methoden und Beziehungen untereinander
+Klasse 						- Baupläne für objekte dieser Klasse
+Objekt 						- Instanzen einer Klasse
+Attribute 					- Eigenschaft einer Klasse
+Methode 					- Funktion einer Klasse
+Konstruktor 				- eine Methode die jede Klasse besitzt, und die aufgerufen wird, wenn ein Objekt einer klasse erzeugt wird
+get-/set-Methoden 			- 
+Assoziation 				- 
+Aggregation 				- Eine Klasse wird von einer anderen Klasse Verwaltet (in einer liste oder durch das erst Objekt einer Dynamischen Liste)
+Vererbung 					- eine Kindklassen erbt von einer Elternklasse dessen attribute und Methoden, solange diese nicht private sind (sollte die Elternklasse eine abstrakte Methode besitzen muss diese inizalisiert werden)
+
 
 Q2:
-Entety Relation ship model - 
-Relationen model - Schema der Tabellen
-Entität - eindeutiges InformationsObjekt wird in DB gespeichert
-Entitätstyp - Objektklasse (Gleichartige Entitäten bilden einen Entitätstyp)
-Attribut - Eigenschaft eines Entiättyps
-Beziehung - verbindungen zwischen Entitätstypen (Eine Beziehung kennzeichnet den konkreten Zusammenhang zwischen zwei Entitäten)
-Kardinalität - wie viele Entitäten eines Entitätstyps an einer konkreten Beziehung beteiligt sein können oder müssen
-Optionalität - ob es optional oder obligatorisch geben muss oder nicht
-Primärschlüssel - eindeutiger Schüssel für
-Fremdschüssel - verweis auf Primärschlüssel einer fremden Tabelle
-Normalisierung - 
-Anomalien - füren zu redundanzen und zu Daten
-erste Normalform - Alle Attibute sind atomar
-zweite normalform - voll funkional Abhängig von Promärschlüsseln (bei)
-dritte Normalform - keine transitive Normalform (wenn ein Attribut mehr als eine Abhängigkeit besitzt)
-Projektion - weleche Spalten
-Selektion - welche Zeilen
-Aggregatfunktion - verarbeiten Information
-Join - Verbinden zweier Tabekken, anhand von eigentschaften
-Sortierung - 
-Gruppierung - nach Attribut in Gruppen einteilen
-Unterabfragen - Abfrage in eier Abfrage
-DML - bearbeiten
-DDL - definition
-DCL - berechtigungen
+Entety Relation ship model	- 
+Relationen model 			- Schema der Tabellen
+Entität 					- eindeutiges InformationsObjekt wird in DB gespeichert
+Entitätstyp 				- Objektklasse (Gleichartige Entitäten bilden einen Entitätstyp)
+Attribut 					- Eigenschaft eines Entiättyps
+Beziehung 					- verbindungen zwischen Entitätstypen (Eine Beziehung kennzeichnet den konkreten Zusammenhang zwischen zwei Entitäten)
+Kardinalität 				- wie viele Entitäten eines Entitätstyps an einer konkreten Beziehung beteiligt sein können oder müssen
+Optionalität 				- ob es optional oder obligatorisch geben muss oder nicht
+Primärschlüssel 			- eindeutiger Schüssel für
+Fremdschüssel 				- verweis auf Primärschlüssel einer fremden Tabelle
+Normalisierung 				- 
+Anomalien 					- füren zu redundanzen und zu Daten
+erste Normalform 			- Alle Attibute sind atomar
+zweite normalform 			- voll funkional Abhängig von Promärschlüsseln (bei)
+dritte Normalform 			- keine transitive Normalform (wenn ein Attribut mehr als eine Abhängigkeit besitzt)
+Projektion 					- weleche Spalten
+Selektion 					- welche Zeilen
+Aggregatfunktion 			- verarbeiten Information
+Join 						- Verbinden zweier Tabekken, anhand von eigentschaften
+Sortierung 					- 
+Gruppierung 				- nach Attribut in Gruppen einteilen
+Unterabfragen 				- Abfrage in eier Abfrage
+DML 						- bearbeiten
+DDL 						- definition
+DCL 						- berechtigungen
 
 
 Q3:
-polynomer - O(n^k) lsumk=0 (a*x^k)
-expodential - k^n
-bijektiv - injektiv und surejektiv
-surejektiv - jedes y min ein x
-injektiv - jeders y höchstens ein x
-diogonalisierung
-Halteproblem - gibt es einen Algoritmus, der entscheidet ob ein algoritmus terminiert oder nicht
-abzählbar
-überabzählbar - 
-entscheidbar - terminiert immer
-semientscheidbar - terminiert manchmal
-unentscheidbar - terminiert nie
-algorithmus - 
-terminiert - 
+polynomer 					- O(n^k) lsumk=0 (a*x^k)
+expodential 				- k^n
+bijektiv 					- injektiv und surejektiv
+surejektiv 					- jedes y min ein x
+injektiv 					- jeders y höchstens ein x
+diogonalisierung 			- 
+Halteproblem 				- gibt es einen Algoritmus, der entscheidet ob ein algoritmus terminiert oder nicht
+abzählbar 					-	
+überabzählbar 				- 
+entscheidbar 				- terminiert immer
+semientscheidbar 			- terminiert manchmal
+unentscheidbar 				- terminiert nie
+algorithmus 				- 
+terminiert 					- 
 Grammatiken (chomsky hirachie):
-reguläre - rechts oder linksbündig
-kontextfrei - es können Terminale sowohl vor als auch hinter einem nicht Terminal geschrieben werden
-kontext sensitiv -  
-ableitung - überprüfen ob wort zu einer sprache gehört
-ableitungsbaum
-Syntrax - 
-semantik - 
-befehlszähler - 
-akkumulator - 
+reguläre 					- rechts oder linksbündig
+kontextfrei 				- es können Terminale sowohl vor als auch hinter einem nicht Terminal geschrieben werden
+kontext sensitiv	 		-  
+ableitung 					- überprüfen ob wort zu einer sprache gehört
+ableitungsbaum 				- 
+Syntrax 					- 
+semantik 					- 
+befehlszähler 				- 
+akkumulator 				- 
