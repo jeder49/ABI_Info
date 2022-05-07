@@ -1,26 +1,6 @@
 Info Fachbegriffe:
 
 Q1:
-inizialsiert				- Wert festlegen
-deklariert					- 
-bäume:
-Grad						- wie viele Kinder ein Knoten effektiv hat
-Pfad						- gibt an, welche Kanten und Knoten besucht werden, wenn man von Knoten v nach Knoten w wandert
-Tiefe						- gibt an, wie lang der Pfad zur Wurzel ist
-Höhe 						- entspricht der Tiefe des Knotens, welcher am weitesten von der Wurzel entfernt ist
-ausgefüllt					- alle inneren Knoten die maximale Anzahl Kinder haben
-vollständig					- jedes Niveau hat die maximale Anzahl an Knoten
-überladen 					- Mehoden mit dem gleichen Namen, aber unterschiedlichen Parametern
-rekursiv 					- sich selbstaufrufend
-iterativ 					- nichte rekursiv
-backtracking 				- ein verfahren um mögliche lösungen für ein poblem zu finden, indem man verschiedene Wege ausprobiert und zu rück geht, wenn man merkt das der Weg nicht funktioniert
-lineare suche 				- jedes element nacheinander durchgehan und abgleichen
-binäre suche 				- (funktioniert nur bei einer sortierten liste)
-Terminationsbedingung 		- 
-Geheimnisprinzip 			- 
-Sichbarkeit 				- 
-Abstrakt					- Abstrakt bedeutet, dass eine Klasse keine Objekte besitzen kann(Eine Klasse ist abstrakt, sobald eine Methode von ihr abstakt ist )
-static						- ein Attribut/Methode mit dieser zeichnung ist für alle objekte der Klasse gleich.
 UML-Klassendiagramm 		- übersich über alle Klassen, deren Attribute, Methoden und Beziehungen untereinander
 Klasse 						- Baupläne für objekte dieser Klasse
 Objekt 						- Instanzen einer Klasse
@@ -31,6 +11,38 @@ get-/set-Methoden 			-
 Assoziation 				- 
 Aggregation 				- Eine Klasse wird von einer anderen Klasse Verwaltet (in einer liste oder durch das erst Objekt einer Dynamischen Liste)
 Vererbung 					- eine Kindklassen erbt von einer Elternklasse dessen attribute und Methoden, solange diese nicht private sind (sollte die Elternklasse eine abstrakte Methode besitzen muss diese inizalisiert werden)
+
+inizialsiert				- Wert festlegen
+deklariert					- 
+Referenzvariable			- 
+traversierung				-
+Generalisierung				-
+Spezialisierung				-
+überladen 					- Mehoden mit dem gleichen Namen, aber unterschiedlichen Parametern
+überschreiben				-
+super						-
+@overload					-
+Typkonvertierung			-
+Abstrakt					- Abstrakt bedeutet, dass eine Klasse keine Objekte besitzen kann(Eine Klasse ist abstrakt, sobald eine Methode von ihr abstakt ist )
+Geheimnisprinzip 			- Es besagt, dass möglichst keine Attribute und möglichst wenig Methoden von außen sichtbar sein sollen.
+Sichbarkeit 				- einteilung in: Private, Public, protected
+
+Bäume:
+Grad						- wie viele Kinder ein Knoten effektiv hat
+Pfad						- gibt an, welche Kanten und Knoten besucht werden, wenn man von Knoten v nach Knoten w wandert
+Tiefe						- gibt an, wie lang der Pfad zur Wurzel ist
+Höhe 						- entspricht der Tiefe des Knotens, welcher am weitesten von der Wurzel entfernt ist
+ausgefüllt					- alle inneren Knoten die maximale Anzahl Kinder haben
+vollständig					- jedes Niveau hat die maximale Anzahl an Knoten
+
+rekursiv 					- sich selbstaufrufend
+iterativ 					- nichte rekursiv
+backtracking 				- ein verfahren um mögliche lösungen für ein poblem zu finden, indem man verschiedene Wege ausprobiert und zu rück geht, wenn man merkt das der Weg nicht funktioniert
+lineare suche 				- jedes element nacheinander durchgehan und abgleichen
+binäre suche 				- (funktioniert nur bei einer sortierten liste)
+Terminationsbedingung 		- 
+static						- ein Attribut/Methode mit dieser zeichnung ist für alle objekte der Klasse gleich.
+
 
 
 Q2:
@@ -44,8 +56,9 @@ Kardinalität 				- wie viele Entitäten eines Entitätstyps an einer konkreten 
 Optionalität 				- ob es optional oder obligatorisch geben muss oder nicht
 Primärschlüssel 			- eindeutiger Schüssel für
 Fremdschüssel 				- verweis auf Primärschlüssel einer fremden Tabelle
+Datenbanksystem				- 
 Normalisierung 				- 
-Anomalien 					- füren zu redundanzen und zu Daten
+Anomalien 					
 erste Normalform 			- Alle Attibute sind atomar
 zweite normalform 			- voll funkional Abhängig von Promärschlüsseln (bei)
 dritte Normalform 			- keine transitive Normalform (wenn ein Attribut mehr als eine Abhängigkeit besitzt)
@@ -56,6 +69,10 @@ Join 						- Verbinden zweier Tabekken, anhand von eigentschaften
 Sortierung 					- 
 Gruppierung 				- nach Attribut in Gruppen einteilen
 Unterabfragen 				- Abfrage in eier Abfrage
+Anomalie 					- führen zu redundanzen und zu Dateninkonsistenz
+redundanz 					- doppelte einträge
+Dateninkonsistenz			- wiedersprüchliche einträge
+transitive Abhängigkeit		- 
 DML 						- bearbeiten
 DDL 						- definition
 DCL 						- berechtigungen
@@ -82,7 +99,7 @@ kontextfrei 				- es können Terminale sowohl vor als auch hinter einem nicht Te
 kontext sensitiv	 		-  
 ableitung 					- überprüfen ob wort zu einer sprache gehört
 ableitungsbaum 				- 
-Syntrax 					- 
-semantik 					- 
+syntrax 					- Ausdrücke und Regeln einer Sprache
+semantik 					- Inhaltliche Bedeutung einer Ausdrucks
 befehlszähler 				- 
-akkumulator 				- 
+akkumulator 				- Speicherort in den Zahlen geladen werden

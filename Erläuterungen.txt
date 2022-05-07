@@ -1,3 +1,12 @@
 Erläuterungen:
 
-unterschied zwischen Klasse und objekten
+unterschied zwischen Klasse und objekten:
+Klassen sind Baupläne für Objekte. Ein objekt ist eine Instanz einer Klasse.
+
+Bestandteil einer Klasse:
+Eine Klasse besteht Attribute einem Konstruktor und weiteren Methoden.
+
+Relationale algebra:
+
+Datenbanksystem
+
