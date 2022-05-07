@@ -1,0 +1,3 @@
+Erläuterungen:
+
+unterschied zwischen Klasse und objekten
