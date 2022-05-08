@@ -13,8 +13,7 @@ Aggregation 				- Eine Klasse wird von einer anderen Klasse Verwaltet (in einer 
 Vererbung 					- eine Kindklassen erbt von einer Elternklasse dessen attribute und Methoden, solange diese nicht private sind (sollte die Elternklasse eine abstrakte Methode besitzen muss diese inizalisiert werden)
 
 inizialsiert				- Wert festlegen
-deklariert					- 
-Referenzvariable			- 
+deklariert					- W
 traversierung				-
 Generalisierung				-
 Spezialisierung				-
